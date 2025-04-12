@@ -19,7 +19,7 @@ In diesem Repository findest du eine Sammlung von C-Übungen, Skripten und Lösu
   Beispielcode zur Implementierung linearer Datenstrukturen (z. B. einfach verkettete Listen).
 
 - **Muster.c**  
-  Ein Musterprogramm mit verschiedenen C-Funktionen, das als Vorlage oder Demonstration dienen kann.
+  Ein Musterprogramm, in dem verschiedenste C-Konzepte, wie Schleifen (for, while, do-while) und grundlegende Datentypen, demonstriert werden.
 
 - **stringWithArray.c**  
   Beispiel zum Umgang mit Strings, die in Arrays gespeichert werden.
