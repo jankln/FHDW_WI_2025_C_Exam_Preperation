@@ -1,0 +1,62 @@
+
+Definitionen für C Klausur
+
+Algorithmus:
+- Ein Algorithmus ist eine endliche, wohldefinierte Folge von Anweisungen (Schritten), die eine bestimmte Eingabe systematisch in eine gewünschte Ausgabe umwandelt.
+
+
+Programm:
+- Ein Programm ist die Implementierung (bzw. der Code) eines oder mehrerer Algorithmen in einer Programmiersprache, häufig inklusive der zugehörigen Daten und Strukturen.
+
+Präprozessor (C-Präprozessor):
+- Der Präprozessor bearbeitet den Quellcode vor dem eigentlichen Kompilieren.
+- Er entfernt Kommentare, ersetzt Makros (z. B. #define), integriert Header-Dateien über #include (indem er den Inhalt der Header-Dateien einfügt) und bereitet den Code so für den Compiler vor.
+
+Compiler:
+- Der Compiler übersetzt den vorverarbeiteten C-Code (vom Präprozessor geliefert) in Maschinensprache (z. B. als Objektdatei .o oder direkt ein ausführbares Programm).
+- Typischer Aufruf: gcc -o test.o -c test.c kompiliert die Datei test.c zu der Objektdatei test.o.
+
+Linker:
+- Der Linker verbindet die vom Compiler erzeugten Objektdateien (z. B. .o) sowie gegebenenfalls benötigte Bibliotheken zu einem ausführbaren Programm.
+
+Interpreter:
+- Ein Interpreter ist ein Programm, das den Quellcode direkt einliest, analysiert und ausführt, ohne diesen vorher vollständig in eine andere Sprache (z. B. Maschinensprache) zu übersetzen.
+
+    +-------------------+
+    |   Quellcode (.c)  |
+    |  (z. B. main.c)   |
+    +---------+---------+
+              |
+        (1) Präprozessor
+              |
+              v
+    +-------------------+
+    |  Vorverarbeiteter |
+    |      Code (.i)    |
+    +---------+---------+
+              |
+          (2) Compiler
+              |
+              v
+    +-------------------+
+    | Objektdatei (.o)  |
+    +---------+---------+
+              |
+           (3) Linker
+              |
+              v
+    +-------------------+
+    |  Ausführbare Datei|
+    |     (Programm)    |
+    +-------------------+
+1. Präprozessor
+    - Liest den Quellcode ein, entfernt Kommentare und integriert Header-Dateien über #include.
+    - Ergebnis: Vorverarbeiteter Code (meist intern oder als .i-Datei).
+
+2. Compiler
+    - Übersetzt den vorverarbeiteten Code in Maschinensprache.
+    - Ergebnis: Objektdatei(en) (z. B. .o).
+
+3. Linker
+    - Verknüpft alle benötigten Objektdateien und Bibliotheken.
+    - Ergebnis: Ausführbare Datei (Programm).
