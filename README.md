@@ -19,7 +19,7 @@ In diesem Repository findest du eine Sammlung von C-Übungen, Skripten und Lösu
   Beispielcode zur Implementierung linearer Datenstrukturen (z. B. einfach verkettete Listen).
 
 - **Muster.c**  
-  Ein Musterprogramm, in dem verschiedenste C-Konzepte, wie Schleifen (for, while, do-while) und grundlegende Datentypen, demonstriert werden.
+  Beispiel in dem verschiedenste C-Konzepte, wie Schleifen (for, while, do-while) und grundlegende Datentypen, demonstriert werden.
 
 - **stringWithArray.c**  
   Beispiel zum Umgang mit Strings, die in Arrays gespeichert werden.
@@ -40,30 +40,16 @@ In diesem Repository findest du eine Sammlung von C-Übungen, Skripten und Lösu
 1. **Klonen oder Herunterladen**  
    - Über GitHub das Repository klonen:  
      ```bash
-     git clone https://github.com/<username>/FHDW_WI_2025_C_Exam_Preparation.git
+     git clone https://github.com/jankln/FHDW_WI_2025_C_Exam_Preparation.git
      ```
    - Oder das ZIP herunterladen und entpacken.
 
-2. **Kompilieren**  
-   - Wechsle ins entsprechende Verzeichnis, in dem sich die gewünschte `.c`-Datei befindet.  
-   - Beispiel für das Kompilieren unter Linux/WSL/MinGW:
-     ```bash
-     gcc Muster.c -o Muster
-     ./Muster
-     ```
-   - Unter Windows kann auch ein Compiler wie *MinGW* oder *Microsoft Visual C++* verwendet werden.
 
-3. **Ausführen**  
-   - Nach dem erfolgreichen Kompilieren (z. B. `a.exe` oder `Muster.exe`) kannst du das Programm direkt ausführen.  
-   - Bei manchen Beispielen sind keine interaktiven Eingaben vorgesehen, andere fordern Nutzereingaben an.
-
----
 
 ## Ziel
 
 - **Lernmaterial** zur Klausurvorbereitung.  
 - **Vertiefung** wichtiger Konzepte in C (Zeiger, Strukturen, Arrays, Speicherverwaltung, u. v. m.).  
-- **Schrittweises Debuggen** und Beheben von Fehlern.
 
 ---
 
